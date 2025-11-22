@@ -190,7 +190,7 @@ Frontend	HTML, CSS, JavaScript, Bootstrap
 Backend	Node.js, Express.js, Apache Kafka
 AI	OpenAI ChatGPT-4o, Vision API
 DB	Supabase (Auth + DB), MongoDB (Full Build)
-Cloud Services	Twilio, OpenWeather, Google Maps
+Cloud Services	Twilio, OpenWeather,Google Maps
 Automation	n8n workflows
 Communication	WebSockets
 6. Installation Guide
