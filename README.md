@@ -1,6 +1,6 @@
 # 🌊 AapdaSetu: The Disaster Management and Response System
 
-> **AI-powered unified platform bridging the information-to-action gap for proactive disaster response.** [cite: 4, 17]
+> [cite_start]**AI-powered unified platform bridging the information-to-action gap for proactive disaster response.** [cite: 4, 17]
 
 ![Status](https://img.shields.io/badge/Status-MVP%20Complete-brightgreen)
 [cite_start]![Theme](https://imgles.io/badge/Theme-AI%20for%20Societal%20Good-red) [cite: 2]
@@ -61,36 +61,24 @@ To ensure a fast, resilient, and simple MVP deployment, we utilized the followin
 
 ## 🌎 Realistic Impact and Usefulness
 
-AapdaSetu directly addresses the societal need for resilience and efficient crisis response.
+[cite_start]AapdaSetu directly addresses the societal need for resilience and efficient crisis response[cite: 2, 88].
 
 ### **Impact on Citizens (Social Benefit)**
-* **Faster, Targeted Assistance**: Citizens get help faster by reporting issues directly and receiving guidance from the AI Chatbot[cite: 81, 30].
-* **Reduced Loss**: Early warnings and personalized safety steps reduce personal and property loss.
+* [cite_start]**Faster, Targeted Assistance**: Citizens get help faster by reporting issues directly and receiving guidance from the AI Chatbot[cite: 81, 30].
+* [cite_start]**Reduced Loss**: Early warnings and personalized safety steps reduce personal and property loss[cite: 80, 82, 90].
 
 ### **Impact on Government (Economic & Operational Benefit)**
-* **Proactive Mitigation**: Allows the shift from a reactive response to proactive mitigation using AI-driven insights.
-* **Optimized Resource Allocation**: Ensures limited resources (like rescue teams and medical aid) are allocated to the areas of greatest need, minimizing financial damage and maximizing operational benefit.
-* **Increased Accountability**: A transparent, data-driven system increases public trust.
+* [cite_start]**Proactive Mitigation**: Allows the shift from a reactive response to proactive mitigation using AI-driven insights[cite: 84].
+* [cite_start]**Optimized Resource Allocation**: Ensures limited resources (like rescue teams and medical aid) are allocated to the areas of greatest need, minimizing financial damage and maximizing operational benefits[cite: 86, 91, 94, 96, 97].
+* [cite_start]**Increased Accountability**: A transparent, data-driven system increases public trust[cite: 87].
 
 ---
 
-## Team Rakshak
+## 👥 Team Rakshak
 
-
-| **Leader** | Mayank Aryan  |
-
-| **Member** | Ayush Kashyap |
-
-| **Member** | Venkata Koushik  |
-
-| **Member** | Aditya Suman  |
-
-| Column 1 | Column 2 | Column 3 |
-
-|----------|----------|----------|
-
-| Row 1    | Data     | Value    |
-
-| Row 2    | Data     | Value    |
-
-| Row 3    | Data     | Value    |
+| Role | Name |
+| :--- | :--- |
+| **Leader** | [cite_start]Mayank Aryan [cite: 10] |
+| **Member** | [cite_start]Ayush Kashyap [cite: 11] |
+| **Member** | [cite_start]Venkata Koushik [cite: 12] |
+| **Member** | [cite_start]Aditya Suman [cite: 13] |
