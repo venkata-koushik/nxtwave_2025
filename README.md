@@ -48,7 +48,6 @@ Misinformation Risks
 
 Citizens often share unverified news.
 Authorities struggle to broadcast accurate alerts quickly without verification.
-
 Slow Two-Way Communication
 
 Most disaster systems push alerts one-way.
