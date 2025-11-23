@@ -1,332 +1,96 @@
-1. Introduction
+# 🌊 AapdaSetu: The Disaster Management and Response System
 
-During natural disasters—whether cyclones, floods, landslides, or earthquakes—the time between receiving information and taking action is often too long.
-Authorities rely on fragmented data from different sources, and citizens rarely receive personalized, verified, and actionable guidance.
+> **AI-powered unified platform bridging the information-to-action gap for proactive disaster response.** [cite: 4, 17]
 
-AapdaSetu was built to directly solve this problem.
+![Status](https://img.shields.io/badge/Status-MVP%20Complete-brightgreen)
+[cite_start]![Theme](https://imgles.io/badge/Theme-AI%20for%20Societal%20Good-red) [cite: 2]
+[cite_start]![Team](https://img.shields.io/badge/Team-Rakshak-darkviolet) [cite: 9]
+[![Demo](https://img.shields.io/badge/Demo-Watch%20Video-ff69b4)]([INSERT_DEMO_VIDEO_LINK_HERE])
 
-It provides:
+---
 
-An early-warning prediction model using AI
+## 🎯 The Core Problem: The Information-to-Action Gap
 
-Hyperlocal citizen alerts
+[cite_start]Currently, data in disaster management exists in distributed fragments (weather forecasts, ground reports, historical records), but it is not synthesized into **timely, actionable intelligence** for authorities and citizens[cite: 5].
 
-A real-time authority dashboard
+This results in two major challenges:
 
-AI-generated safety checklists
+* [cite_start]**Pre-Disaster**: Lack of precise, hyperlocal, and context-aware early warnings[cite: 6].
+* [cite_start]**Post-Disaster**: Authorities struggle to obtain a real-time, consolidated view of ground reality, making it impossible to prioritize resource allocation efficiently[cite: 7, 8]. [cite_start]They often don't know which specific area needs food or where connectivity is down[cite: 8].
 
-A verification pipeline to prevent misinformation
+---
 
-Dynamic handling of severe-load scenarios using event-driven systems
+## 💡 AapdaSetu: Our AI Solution
 
-The system’s goal is simple:
-Bridge information → into action → as fast as possible.
+[cite_start]AapdaSetu ("Bridge of Disaster Relief") is a unified web platform that uses AI to transform raw, fragmented data into structured, intelligent insights for disaster mitigation and response[cite: 17, 23].
 
-2. Motivation and Problem Background
+### [cite_start]**Target Audience & Portals** [cite: 17]
 
-Disaster management today faces several structural challenges:
+The system provides two distinct, customized portals:
 
-Fragmented Information Sources
+| Portal | Target User | Key Functionality |
+| :--- | :--- | :--- |
+| [cite_start]**Citizen Portal** [cite: 26] | Residents/Public | [cite_start]Receive **personalized safety alerts**, track alert status, report their status, and get guidance from an **AI Chatbot**[cite: 27, 28, 29, 30]. |
+| [cite_start]**Admin Portal** [cite: 31] | Government Authorities/Officials | [cite_start]Access **AI-driven predictions**, view the **Live Interactive Map**, assign response missions, and send **targeted mass alerts** to specific zones[cite: 32, 33, 34, 35]. |
 
-Weather APIs, ground reports, historical datasets, and sensor readings are not integrated into a single platform. This slows down response time.
+---
 
-Lack of Real-Time Visibility
+## 🚀 Key Features & MVP Architecture
 
-Authorities lack a consolidated view of:
+[cite_start]The MVP (Minimum Viable Product) is built on a high-speed, scalable architecture designed specifically for crisis-level stability[cite: 63].
 
-Affected areas
+### **Core AI-Driven Features**
 
-Severity levels
+1.  [cite_start]**Proactive AI Warnings**: Prediction of disasters through historic data analysis combined with real-time conditions[cite: 20, 24].
+2.  [cite_start]**Data-Driven Resource Allocation**: AI provides suggestions for resource deployment (relief teams, aid, food) and response prioritization[cite: 21, 32, 36].
+3.  [cite_start]**Human-in-the-Loop (HITL)**: For high-severity, wide-impact alerts, the system requires a final confirmation from a human operator before broadcasting to the public[cite: 73]. [cite_start]This mitigates the critical risk of **AI Automated Inaccurate Critical Alerts** that could cause mass panic[cite: 72].
+4.  [cite_start]**Asynchronous AI Processing**: An **n8n** automation workflow leverages **ChatGPT4-o** and the Vision API for rapid data extraction, summarization, and structuring of raw reports[cite: 42, 51].
 
-Resource needs
+### **Technical Stack Highlights (MVP Focus)**
 
-Citizen requests
+To ensure a fast, resilient, and simple MVP deployment, we utilized the following core stack:
 
-This makes prioritization extremely difficult.
+| Component | Technology | Role in MVP |
+| :--- | :--- | :--- |
+| **Frontend** | Vanilla JS, Bootstrap 5 | [cite_start]Lightweight, instant-loading interface[cite: 39]. |
+| **Backend/DB** | **Supabase** (Replacing custom Node/MongoDB for MVP) | [cite_start]Provides highly available **Database, Authentication, and Realtime WebSockets** for instant alert synchronization[cite: 41, 49]. |
+| **AI/Automation** | **n8n, ChatGPT4-o, Vision API** | [cite_start]The "Brain" for intelligent insight generation and automated analysis[cite: 42, 51]. |
+| **Alerts** | **Twilio API** | [cite_start]Sends alerts directly through messaging[cite: 44, 46]. |
 
-Misinformation Risks
+---
 
-Citizens often share unverified news.
-Authorities struggle to broadcast accurate alerts quickly without verification.
-Slow Two-Way Communication
+## 🌎 Realistic Impact and Usefulness
 
-Most disaster systems push alerts one-way.
-Citizens have no simple way to:
+AapdaSetu directly addresses the societal need for resilience and efficient crisis response.
 
-Report issues
+### **Impact on Citizens (Social Benefit)**
+* **Faster, Targeted Assistance**: Citizens get help faster by reporting issues directly and receiving guidance from the AI Chatbot[cite: 81, 30].
+* **Reduced Loss**: Early warnings and personalized safety steps reduce personal and property loss.
 
-Ask for help
+### **Impact on Government (Economic & Operational Benefit)**
+* **Proactive Mitigation**: Allows the shift from a reactive response to proactive mitigation using AI-driven insights.
+* **Optimized Resource Allocation**: Ensures limited resources (like rescue teams and medical aid) are allocated to the areas of greatest need, minimizing financial damage and maximizing operational benefit.
+* **Increased Accountability**: A transparent, data-driven system increases public trust.
 
-Provide location-based data
+---
 
-AapdaSetu creates a closed loop disaster management cycle with end-to-end visibility.
+## Team Rakshak
 
-3. Core Solution
 
-AapdaSetu is a two-portal, AI-integrated disaster ecosystem:
+| **Leader** | Mayank Aryan  |
 
-🟥 Admin Portal
+| **Member** | Ayush Kashyap |
 
-Live dashboard
+| **Member** | Venkata Koushik  |
 
-Risk detection
+| **Member** | Aditya Suman  |
 
-Trigger or simulate disasters
+| Column 1 | Column 2 | Column 3 |
 
-Review AI-generated intelligence
+|----------|----------|----------|
 
-Approve or modify alerts
+| Row 1    | Data     | Value    |
 
-Broadcast public alerts
+| Row 2    | Data     | Value    |
 
-View impact heatmaps
-
-Monitor incoming citizen reports
-
-🟦 Citizen Portal
-
-Receive hyperlocal alerts in real-time
-
-View structured AI-generated safety checklists
-
-Send reports (photos, text, location) to authorities
-
-Access maps and risk zones
-
-Chat with an AI assistant for guidance
-
-The system uses:
-
-Kafka for stream handling
-
-OpenAI for intelligence
-
-WebSockets for live updates
-
-Supabase for database and authentication
-
-n8n automation for pre-processing and heavy trigger flows
-
-4. System Features
-1. AI-Generated Disaster Intelligence
-
-Every triggered event passes through an AI pipeline which produces:
-
-Severity score
-
-Expected impact radius
-
-Recommended resources
-
-Summary for citizens
-
-Government-level brief
-
-2. Two-Level Verification (Human-in-the-Loop)
-
-Critical alerts require:
-
-AI assessment
-
-Human approval
-
-This prevents false alarms and misinformation.
-
-3. Real-Time WebSocket Communication
-
-Citizens receive alerts instantly without refresh.
-
-4. Map Overlay & Geo-Tagging
-
-Mark affected zones
-
-Indicate blocked roads
-
-Pin user reports
-
-5. SMS Alerts via Twilio
-
-Citizens without smartphones can be notified.
-
-6. Automated Safety Checklists
-
-Before, during, and after a disaster.
-
-5. Technical Architecture
-5.1 High-Level Overview
-┌─────────────────────────────────────────────┐
-│                 Citizen Portal              │
-│  - Alerts                                    │
-│  - Checklists                                 │
-│  - Reporting (images/text/location)           │
-└─────────────────────────┬─────────────────────┘
-                          │ WebSocket
-                          ▼
-    ┌─────────────────────────────────────────┐
-    │          Backend (Node + Express)       │
-    │  - REST APIs                             │
-    │  - WebSockets                             │
-    │  - Kafka Producers & Consumers            │
-    └─────────────────────────┬─────────────────┘
-                              │ Streams
-                              ▼
-                     ┌────────────────────┐
-                     │ AI Processing Unit │
-                     │ (OpenAI APIs)      │
-                     └────────────────────┘
-                              │
-                              ▼
-        ┌─────────────────────────────────────────┐
-        │               Admin Portal              │
-        │ - Live Dashboard                         │
-        │ - HITL Verification                      │
-        │ - Final Broadcast                        │
-        └─────────────────────────────────────────┘
-
-5.2 Technology Stack
-Component	Technologies
-Frontend	HTML, CSS, JavaScript, Bootstrap
-Backend	Node.js, Express.js, Apache Kafka
-AI	OpenAI ChatGPT-4o, Vision API
-DB	Supabase (Auth + DB), MongoDB (Full Build)
-Cloud Services	Twilio, OpenWeather,Google Maps
-Automation	n8n workflows
-Communication	WebSockets
-6. Installation Guide
-6.1 Prerequisites
-
-Install or configure:
-
-Supabase project
-
-OpenAI API key
-
-n8n automation instance
-
-Google Maps API key
-
-Node.js v18+
-
-Modern browser (Chrome recommended)
-
-6.2 Setup Instructions
-
-Clone the project:
-
-git clone <repo-url>
-cd AapdaSetu
-
-
-Update API keys inside:
-
-/admin.html
-
-/index.html
-
-Run the HTML files directly by opening them in your browser.
-
-7. Usage Documentation
-7.1 Admin Portal
-
-The Admin Dashboard enables disaster managers to:
-
-Trigger disaster simulations
-
-Generate AI risk intelligence
-
-Approve alerts
-
-Broadcast crisis notifications
-
-Monitor live WebSocket activity
-
-View citizen reports in real-time
-
-Analyze heatmaps showing disaster spread
-
-7.2 Citizen Portal
-
-Citizens get:
-
-Instant red/yellow alerts
-
-Dynamic checklists
-
-Map of affected regions
-
-Real-time info panels
-
-Simple reporting tools
-
-7.3 Human-in-the-Loop Alert Verification
-
-This process ensures no incorrect critical alert reaches the public.
-
-Workflow:
-
-Admin triggers event → AI analysis begins
-
-AI generates severity, summary, checklist
-
-Alert is PENDING
-
-A modal appears: “Verification Required”
-
-Admin clicks BROADCAST
-
-Citizens receive instant live alert
-
-8. Configuration Options
-
-Environment variables:
-
-SUPABASE_URL=
-SUPABASE_ANON_KEY=
-OPENAI_API_KEY=
-N8N_WORKFLOW_URL=
-GOOGLE_MAPS_KEY=
-TWILIO_ACCOUNT_ID=
-TWILIO_AUTH_KEY=
-
-9. Known Issues and Common Fixes
-Problem	Reason	Fix
-Map not loading	Wrong API key	Verify Google Maps key
-AI not responding	OpenAI quota exceeded	Check API usage
-Alerts not updating	WebSocket issue	Restart server
-10. Risk Assessment & Mitigation
-AI Hallucination
-
-Solved using HITL flow
-
-Strict prompt templates
-
-Server Overload
-
-Kafka handles spikes
-
-Async pipelines
-
-Citizen Misuse
-
-Verification of identity
-
-Report validation pipeline
-
-11. Future Enhancements
-
-Drone-based image assessment
-
-Automated relief supply chain AI planner
-
-Multi-language chatbot
-
-Full mobile app
-
-Predictive climate modeling
-
-12. Contributors
-Role	Name
-Team Lead	Mayank Aryan
-Developer	Ayush Kashyap
-Developer	Venkata Koushik
-Developer	Aditya Suman
+| Row 3    | Data     | Value    |
