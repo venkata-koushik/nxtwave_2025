@@ -2,12 +2,12 @@
 
 > **AI-powered unified platform bridging the information-to-action gap for proactive disaster response.**
 
-## 1. Project Summary & Problem Statement
-## 2. Solution: AapdaSetu & Target Audience
-## 3. Core Features & MVP Architecture
-## 4. Realistic Impact and Usefulness
-## 5. Citizen Usage Guide
-## 6. Team Rakshak
+#### 1. Project Summary & Problem Statement
+#### 2. Solution: AapdaSetu & Target Audience
+### 3. Core Features & MVP Architecture
+### 4. Realistic Impact and Usefulness
+### 5. Citizen Usage Guide
+### 6. Team Rakshak
 
 ---
 
